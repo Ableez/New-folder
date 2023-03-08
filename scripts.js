@@ -34,7 +34,6 @@ const combinations = [
   "p",
   "[",
   "]",
-  "\\",
   "a",
   "s",
   "d",
@@ -125,7 +124,6 @@ btn.addEventListener("click", () => {
 });
 
 passText.addEventListener("click", () => {
-  // alert("Passwords copied successfully")
   navigator.clipboard
     .writeText(passText.innerHTML)
     .then(() => {
